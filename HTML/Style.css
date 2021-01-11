@@ -1,0 +1,19 @@
+h2{ 
+	color:green;
+}
+
+#p1{
+	color:blue;
+}
+.c1{
+	background-color: red;
+}
+*{
+	background-color: lightblue;
+}
+div a{
+	color:green;
+}
+div>a {
+	border: 2px black;
+}
