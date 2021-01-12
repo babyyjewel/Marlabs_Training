@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<script type="text/javascript">
+			function display(obj){
+			document.write("<br>Name :" +obj.name);
+			document.write("<br>Age :" +obj.age);
+			document.write("<br>Salary :" +obj.salary);
+			document.write("<br>Designation :" +obj.desig);
+			document.write("<br>Address :" +obj.address);
+			document.write("<br>");
+			}
+		</script>
+
+</head>
+<body>
+	<h1>Java Script Object Demo</h1>
+	<hr>
+	<h2>Using Object Constructor</h2>
+	<h3>
+
+<script>
+
+	var obj1 = new Object();
+	obj1.name = "Ravi";
+	obj1.age= 23;
+	obj1.salary=160000;
+	obj1.desig ="Tester";
+	obj1.address = "Banglore";
+
+	var obj2 = new Object();
+	obj2.name = "Pavi";
+	obj2.age= 23;
+	obj2.salary=160000;
+	obj2.desig ="Tester";
+	obj2.address = "Banglore";
+
+    display(obj1);
+    display(obj2);
+
+</script>
+</h3>
+<hr>
+
+
+<script>
+
+	function Emp(name,age,salary,desig){
+		this.name=name;
+		this.age=age;
+		this.salary=salary;
+		this.desig=desig;
+
+
+
+
+
+
+	}
+
+var e1 = new Emp("Mohan", 22, 30000, "Programmer");
+var e2 = new Emp("Rohan", 20, 80000, "Admin");
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<script type="text/javascript">
+	
+function nor(){
+	console.log("From Normal Function");
+}
+
+function square(x){
+	console.log("From Normal Function With Arg");
+}
+
+var xyz=function(){
+
+	console.log("From Anonymous Function");
+}
+var arr=()=>{
+	console.log("From Arrow Function");
+
+}
+
+
+</script>
+
+
+
+</head>
+<body>
+
+<button onclick="nor()"> Normal Function</button>
+<button onclick="square(4)"> Normal Function With Arg</button>
+<button onclick="xyz()"> Anonymous Function</button>
+<button onclick="new Function(console.log('From Function Object Using Function Constructor'))">Function Object</button>
+<button onclick="arr()"> Arrow Function</button>
+
+
+
+</body>
+</html>
