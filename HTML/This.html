@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	This keyword refers to object it belongs
+
+<script type="text/javascript">
+	
+var x=20;
+console.log(this);
+
+function abc(a,b){
+console.log("Sum id " + (a+b));
+console.log(this.x);
+
+}
+
+var person = {
+	
+  firstName: "John",
+  lastName : "Doe",
+  id     : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+console.log(person.fullName());
+abc(4,5);
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
